@@ -1,0 +1,90 @@
+body{
+    color:rgb(255, 255, 255);
+    background:rgb(218, 216, 216);
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 100px;
+}   
+
+header {
+    border-bottom: solid 5px rgb(212, 30, 17);
+    padding: 20px;
+    font-size: 62px;
+    color: rgb(2, 2, 2);
+}
+
+.chamada{
+    background: rgb(9, 192, 116);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex; 
+    justify-content: center;
+     border-bottom:solid 7px rgb(212, 30, 17)
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 41px;
+}
+
+p {
+    font-size: 25;
+}
+
+.categoria-contos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+   padding: 50px; 
+   margin: 10px auto;
+    opacity: 0.9    ;
+   }
+   .box{
+       width: 328px;
+       margin: 0 10px;
+       box-shadow: 0 0 20px 3px rgba(0, 0, 0, .1);
+       transition: 1s;
+       color: rgb(0, 0, 0);
+       
+   }
+
+   .box img{display: block;
+   width: 100%;
+   border-radius: 5px;
+}
+
+.box:hover{
+transform:scale(1.3);
+z-index: 2;
+}
+
+.categoria {
+    color:black;
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-top: 50px;
+}
+
+.categoria-contos img:hover {
+    opacity: 1.0; 
+    border: 4px solid rgb(212, 30, 17);
+}
+
+.creditos{
+    color:rgba(255, 255, 255, 0.322);
+}        
+
+.texto {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.descri {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
